@@ -8,10 +8,12 @@ We built an awesome SlackBot that adds events to your google calendar and sends 
 ## How we built it
 We teamed up first . Divided work of making the slackbot and using google api we schedule a meet to your calendar so you never miss another beat of your meet.
 ## How to Use it
-Just Invite the bot and using the following commands
-/plan tomorrow's meet, 10-01-2022/10:30 duration:1 https://meet.google.com/xxx-xxxx-xxx
+Just Invite the bot and using the following commands</br>
+"/plan tomorrow's meet, 10-01-2022/10:30 duration:1" 
+![gifforreadme](https://user-images.githubusercontent.com/71831127/148672837-42314cdc-13ee-4c77-a7da-96323dcdb7fb.gif)
 ## How to contribute
 To get started:  - Clone the repo.   git clone https://github.com/guptaharsh13/notifIEEE.git - Checkout to a new branch.   git checkout -b my-amazing-feature - Make some amazing changes. - git add . - git commit -m "<Verb>: <Action>" - git push origin my-amazing-feature - Open a pull request 🙂
+
 ## Challenges we ran into
 One of the problems faced was we were not able to find the right API's a lot of them were paid and a lot of them didn't work as such
 ## Accomplishments that we're proud of
