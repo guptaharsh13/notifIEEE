@@ -9,5 +9,5 @@ admin.site.index_title = "Welcome to NOTIFIEEE Admin Panel"
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("slack/events/", include("events.urls")),
+    path("slack/", include("commands.urls")),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

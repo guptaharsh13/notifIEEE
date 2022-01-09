@@ -19,7 +19,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "rest_framework",
-    "events",
+    "commands",
 ]
 
 MIDDLEWARE = [
@@ -100,3 +100,7 @@ SLACK_CLIENT_ID = env("SLACK_CLIENT_ID")
 SLACK_CLIENT_SECRET = env("SLACK_CLIENT_SECRET")
 SLACK_VERIFICATION_TOKEN = env("SLACK_VERIFICATION_TOKEN")
 SLACK_BOT_USER_TOKEN = env("SLACK_BOT_USER_TOKEN")
+
+REST_FRAMEWORK = {
+    "DEFAULT_RENDERER_CLASSES": ("rest_framework.renderers.JSONRenderer",)
+}
