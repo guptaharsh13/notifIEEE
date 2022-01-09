@@ -52,8 +52,9 @@ def scheduleMeet(meet_name, meet_link, s_datetime, duration, emails):
             'useDefault': False,
             'overrides': [
                 {'method': 'email', 'minutes': 10},
+                {'method': 'email', 'minutes': 1440},
                 {'method': 'popup', 'minutes': 5},
-                {'method': 'popup', 'minutes': 10},
+                {'method': 'popup', 'minutes': 1440},
             ],
         },
     }
